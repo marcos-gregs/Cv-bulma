@@ -1,0 +1,26 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+#conteiner {
+  display: flex;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+#coluna {
+  max-width: 319px;
+  max-height: 470px;
+  width: 100%;
+  margin-right: 2%;
+}
+.text-perfil > h3 {
+  font-size: 100%;
+}
+.text-perfil > p {
+  font-size: 100%;
+}
+#coluna2 {
+  width: 996px;
+  height: 971px;
+  width: 100%;
+}
