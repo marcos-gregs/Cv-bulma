@@ -4,26 +4,53 @@
    color: aliceblue;
  }
 #conteiner {
+  max-width: 90vw;
+  max-height: 90vh;
   display: flex;
-
+  max-height: 100vh;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 #coluna {
-  max-width: 319px;
-  max-height: 470px;
+  max-width:30vw;
+  max-height: 40vh;
   width: 100%;
   margin-right: 2%;
 }
+
 .text-perfil > h3 {
   font-size: 100%;
 }
 .text-perfil > p {
   font-size: 100%;
+
 }
 #coluna2 {
-  width: 996px;
-  height: 971px;
-  width: 100%;
+ min-width: 40vw;
+min-height: 66vh;
+}
+.ulBox{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+ul>li >a{
+  text-decoration: none;
+  font-size: 2rem;
+  color: rgb(10, 10, 10);
+}
+.lin :hover{
+  color: rgb(52, 196, 196);
+
+}
+.git :hover{
+  color: rgb(170, 52, 196);
+
+}
+.wpp :hover{
+  color: rgb(52, 196, 52);
+
 }
